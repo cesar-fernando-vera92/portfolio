@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 :root{
-    --blue: #3533cd;
+    --blue: #5e5ce0;
     --white: #fff;
     --black: #131517;
     --verde: #14ad21;   
     --red:rgb(236, 62, 70);
+    --lightblue: #2abde2;
 }
 *{
     box-sizing: border-box;
@@ -118,8 +119,8 @@ html{
 
 .inicio .boton{
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid var(--white);
+    background-color: var(--blue);
+    border-radius: 5px;
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -128,6 +129,24 @@ html{
     color: var(--white);
     position: relative;
     z-index: 10;
+}
+.inicio .animacion{
+    border-right: 2px solid var(--blue);
+    width: 100%;
+    margin: 20px auto;
+    font-size: 25px;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
 }
 .inicio .contenido-banner a{
     text-decoration: none;
@@ -142,8 +161,11 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.inicio .boton:hover .overlay{
-    width: 100%;
+
+.inicio .boton:hover{
+    box-shadow: 0px 5px 15px 5px rgba(8, 4, 228, 0.219),
+                0px 0px 15px 5px rgba(235, 235, 236, 0.219) inset; 
+    transition: all .2s ease-in-out;
 }
 .sobremi{
     background-color: #1e2326;
@@ -185,7 +207,6 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: var(--blue);
     width: 130px;
 }
 
@@ -264,7 +285,27 @@ html{
     transform: scale(1.1); 
     transition: all .4s ease;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    
 }
+.col-ul .col-li .tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.col-ul .col-li:hover .tooltiptext{
+    visibility: visible;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+
 .skills-section {
     margin-bottom: 30px;
 }
@@ -333,9 +374,8 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: var(--blue);
-    font-size: 22px;
-    font-weight: bold;
+    color: var(--white);
+    font-size: 20px;
     display: block;
 }
 .curriculum .fila .item .fecha{

@@ -139,3 +139,5 @@ $formulario.addEventListener('submit', (e) => {
 /* ANIMACION CONTENIDO DE IMAGEN */
 ScrollReveal().reveal(`.contenido-banner`, {delay: 400})
 ScrollReveal().reveal(`.contenedor-imagen`, {delay: 2000})
+
+
