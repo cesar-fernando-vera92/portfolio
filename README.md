@@ -1,9 +1,9 @@
-# Portfolio Personal - César Fernando Vera
+# Portfolio Personal - Cesar Fernando Vera
 
 [![Visitar Portfolio](https://img.shields.io/badge/Visitar-Portfolio-brightgreen)](https://cesar-fernando-vera92.github.io/portfolio/)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)](LICENSE)
 
-Bienvenido/a a mi portfolio personal donde muestro mis proyectos, habilidades y experiencia como desarrollador.
+Bienvenidos a mi portfolio personal donde muestro mis proyectos, habilidades y experiencia como desarrollador.
 
 ## 📌 Descripción
 
@@ -12,11 +12,10 @@ Este portfolio es una representación de mi trabajo y habilidades en el desarrol
 ## 🚀 Características
 
 - Diseño moderno y responsive
-- Sección de proyectos con filtros por categorías
+- Sección de proyectos 
 - Información sobre mis habilidades técnicas
 - Experiencia laboral y educación
 - Formulario de contacto funcional
-- Modo claro/oscuro
 
 ## 🛠 Tecnologías Utilizadas
 
@@ -40,15 +39,10 @@ portfolio/
 └── README.md           # Este archivo
 ```
 
-## 🌐 Cómo Visitar
+## 🌐 Visita mi Portfolio
 
 Puedes acceder a mi portfolio en:  
 🔗 [https://cesar-fernando-vera92.github.io/portfolio/](https://cesar-fernando-vera92.github.io/portfolio/)
 
-## 📝 Licencia
-
-Este proyecto está bajo la licencia [MIT](LICENSE).
-
----
 
 ✨ Hecho con ❤️ por [César Fernando Vera](https://github.com/cesar-fernando-vera92)
