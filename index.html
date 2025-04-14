@@ -1,353 +1,454 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#9d4edd">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#9d4edd" />
     <!-- AUTOR -->
-    <meta name="author" content="Cesar Fernando Vera">
+    <meta name="author" content="Cesar Fernando Vera" />
     <!-- KEYWORDS -->
-    <meta name="keywords" content="fernando vera, fervera, cesar fernando vera, portfolio programador web, portfolio programador frontend, desarrollador web frontend, portfolio frontend, ux ui">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="asset/img/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilo.css">
+    <meta
+      name="keywords"
+      content="fernando vera, fervera, cesar fernando vera, portfolio programador web, portfolio programador frontend, desarrollador web frontend, portfolio frontend, ux ui"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="asset/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="estilo.css" />
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>My Portfolio</title>  
-</head>
-<body>
+    <title>My Portfolio</title>
+  </head>
+  <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
-        <header>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
+      <header>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
 
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="asset/img/imagen_perfil.png" alt="imagen perfil">
-            </div>
-            <h1>Fernando Vera</h1>
-            <h2 class="animacion">Software Developer - Diseñador UI/UX</h2>
-              <a class="boton" target="_blank" href="asset/pdf/CV Cesar Fernando Vera 2025.pdf" download=""> 
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-              </a>
-            <div class="redes">
-                <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+5401162495389"><i class="fa-brands fa-whatsapp"></i></a>
-                <a class="github" href="https://github.com/cesar-fernando-vera92?tab=repositories"><i class="fa-brands fa-github"></i></a>
-                <a class="linkedin" href="https://www.linkedin.com/in/cesar-fernando-vera/"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="asset/img/imagen_perfil.png" alt="imagen perfil" />
         </div>
+        <h1>Fernando Vera</h1>
+        <h2 class="animacion">Software Developer - Diseñador UI/UX</h2>
+        <a
+          class="boton"
+          target="_blank"
+          href="asset/pdf/CV Cesar Fernando Vera 2025.pdf"
+          download=""
+        >
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </a>
+        <div class="redes">
+          <a
+            class="whatsapp"
+            href="https://api.whatsapp.com/send?phone=+5401162495389"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a
+            class="github"
+            href="https://github.com/cesar-fernando-vera92?tab=repositories"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/cesar-fernando-vera/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
     </section>
 
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p> Soy un Desarrollador Front-End con un enfoque hacia el diseño UX, apasionado por la creación de experiencias digitales
-                 intuitivas, funcionales y responsivas. Estoy en constante búsqueda de nuevos desafíos que me permitan expandir mis 
-                 habilidades, impulsando mi crecimiento tanto personal como profesional. Me considero una persona creativa y resolutiva,
-                  con gran facilidad para las relaciones interpersonales y el trabajo en equipo.</p>
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Teléfono</strong>
-                            +54 11 62495389
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            cesarfernandovera12@gmail.com
-                        </li>
-                        <li>
-                            <strong>Nacionalidad</strong>
-                            Argentino 
-                            <span class="fi fi-ar fis"></span>    
-                        </li>
-                    </ul>
-                </div>
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          Soy un Desarrollador Front-End con un enfoque hacia el diseño UX,
+          apasionado por la creación de experiencias digitales intuitivas,
+          funcionales y responsivas. Estoy en constante búsqueda de nuevos
+          desafíos que me permitan expandir mis habilidades, impulsando mi
+          crecimiento tanto personal como profesional. Me considero una persona
+          creativa y resolutiva, con gran facilidad para las relaciones
+          interpersonales y el trabajo en equipo.
+        </p>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Teléfono</strong>
+                +54 11 62495389
+              </li>
+              <li>
+                <strong>Email</strong>
+                cesarfernandovera12@gmail.com
+              </li>
+              <li>
+                <strong>Nacionalidad</strong>
+                Argentino
+                <span class="fi fi-ar fis"></span>
+              </li>
+            </ul>
+          </div>
 
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>
-                       
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                    
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
-                        </div>
-                        
-                    </div>
-                </div>
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>AUTOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
             </div>
-            
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Skill FRONTEND -->
-                <div class="col">
-                    <h2>Front-end</h2>
-                    <ul class="col-ul">
-                        <li class="col-li"><i class="fab fa-react icon"></i> React</li>
-                        <li class="col-li"><i class="fab fa-js icon"></i> JavaScript</li> 
-                        <li class="col-li"><i class="fab fa-html5 icon"></i> HTML5</li>
-                        <li class="col-li"><i class="fab fa-css3-alt icon"></i> CSS3</li>
-                        <li class="col-li"><i class="fab fa-brands fa-figma icon"></i> Figma</li>
-                        <li class="col-li"><i class="fab fa-bootstrap icon"></i> Bootstrap</li>
-                    </ul>
-                </div>
-                <!-- Skills BACKEND-->
-                <div class="col">
-                    <div class="skills-section">
-                        <h2>Back-end</h2>
-                        <ul class="col-ul">
-                            <li class="col-li"><i class="fas fa-database icon"></i> MongoDB</li>
-                            <li class="col-li"><i class="fab fa-node-js icon"></i> Node</li>
-                            <li class="col-li"><i class="fab fa-python icon"> <span class="tooltiptext">Aprendiendo😀</span></i> Python</li>
-                            <li class="col-li"><i class="fas fa-fire icon"></i> Firebase</li>
-                            <li class="col-li"><i class="fab fa-git-alt icon"></i> Git</li>
-                        </ul>
-                    </div>               
-                </div>
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- Skill FRONTEND -->
+          <div class="col">
+            <h2>Front-end</h2>
+            <ul class="col-ul">
+              <li class="col-li"><i class="fab fa-react icon"></i> React</li>
+              <li class="col-li"><i class="fab fa-js icon"></i> JavaScript</li>
+              <li class="col-li"><i class="fab fa-html5 icon"></i> HTML5</li>
+              <li class="col-li"><i class="fab fa-css3-alt icon"></i> CSS3</li>
+              <li class="col-li">
+                <i class="fab fa-brands fa-figma icon"></i> Figma
+              </li>
+              <li class="col-li">
+                <i class="fab fa-bootstrap icon"></i> Bootstrap
+              </li>
+            </ul>
+          </div>
+          <!-- Skills BACKEND-->
+          <div class="col">
+            <div class="skills-section">
+              <h2>Back-end</h2>
+              <ul class="col-ul">
+                <li class="col-li"><i class="fab fa-node-js icon"></i> Node</li>
+                <li class="col-li">
+                  <i class="fab fa-python icon">
+                    <span class="tooltiptext">Aprendiendo😀</span></i
+                  >
+                  Python
+                </li>
+                <li class="col-li">
+                  <i class="fas fa-fire icon"></i> Firebase
+                </li>
+                <li class="col-li"><i class="fab fa-git-alt icon"></i> Git</li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educación</h3>
-                    <div class="item izq">
-                        <h4>LIC. GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN</h4>
-                        <span class="casa">Universidad Nacional de Jose C Paz</span>
-                        <span class="fecha">Marzo 2019 - Actualidad</span>     
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>React JS</h4>
-                        <span class="casa">Coder House</span>
-                        <span class="fecha">Junio 2022 - agosto 2022</span>    
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>JavaScript</h4>
-                        <span class="casa">Coder House</span>
-                        <span class="fecha">Diciembre 2021 - Febrero 2022</span>    
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>DESARROLLO WEB</h4>
-                        <span class="casa">Coder House</span>
-                        <span class="fecha">Mayo 2021 - Julio 2021</span>    
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>TÉCNICO EN PC - REDES INFORMÁTICAS</h4>
-                        <span class="casa">Centro de Estudios Técnicos Administrativos</span>
-                        <span class="fecha">Mayo 2013 - Noviembre 2013</span>                     
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Cursos</h3>
-                    <div class="item der">
-                        <h4>Curso de Python desde Cero</h4>
-                        <span class="casa">YouTube SoyDalto</span>
-                        <span class="fecha">Cursando...</span>    
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Curso de Figma</h4>
-                        <span class="casa">YouTube Jonmircha</span>
-                        <span class="fecha">2024</span>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Curso Profecional de Git y GitHub</h4>
-                        <span class="casa">Platzi Leonidas Esteban</span>
-                        <span class="fecha">2024</span> 
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Desarrollo Web Con Node.js y Express.js</h4>
-                        <span class="casa">YouTube JonMircha</span>
-                        <span class="fecha">2023</span> 
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Diseño Web Profecional </h4>
-                        <span class="casa">Udemy Falcon Masters</span>
-                        <span class="fecha">2023</span> 
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>LIC. GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN</h4>
+              <span class="casa">Universidad Nacional de Jose C Paz</span>
+              <span class="fecha">Marzo 2019 - Actualidad</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
             </div>
+            <div class="item izq">
+              <h4>React JS</h4>
+              <span class="casa">Coder House</span>
+              <span class="fecha">Junio 2022 - agosto 2022</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>JavaScript</h4>
+              <span class="casa">Coder House</span>
+              <span class="fecha">Diciembre 2021 - Febrero 2022</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>DESARROLLO WEB</h4>
+              <span class="casa">Coder House</span>
+              <span class="fecha">Mayo 2021 - Julio 2021</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>TÉCNICO EN PC - REDES INFORMÁTICAS</h4>
+              <span class="casa"
+                >Centro de Estudios Técnicos Administrativos</span
+              >
+              <span class="fecha">Mayo 2013 - Noviembre 2013</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Cursos</h3>
+            <div class="item der">
+              <h4>Curso de Python desde Cero</h4>
+              <span class="casa">YouTube SoyDalto</span>
+              <span class="fecha">Cursando...</span>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Curso de Figma</h4>
+              <span class="casa">YouTube Jonmircha</span>
+              <span class="fecha">2024</span>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Curso Profecional de Git y GitHub</h4>
+              <span class="casa">Platzi Leonidas Esteban</span>
+              <span class="fecha">2024</span>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Desarrollo Web Con Node.js y Express.js</h4>
+              <span class="casa">YouTube JonMircha</span>
+              <span class="fecha">2023</span>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseño Web Profecional</h4>
+              <span class="casa">Udemy Falcon Masters</span>
+              <span class="fecha">2023</span>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="asset/img/p1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="asset/img/p2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="asset/img/p3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="asset/img/p4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="asset/img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="asset/img/p6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <a
+              href="https://cesar-fernando-vera92.github.io/Gasto-Mensual/"
+              target="_blank"
+            >
+              <img src="asset/img/P1.jpg" alt="proyecto gasto mensual" />
+
+              <div class="overlay">
+                <h3>Gestor de Gasto Mensual</h3>
+                <p>Define tus gastos y manten tu economía en orden</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyecto">
+            <img src="asset/img/p2.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
             </div>
+          </div>
+          <div class="proyecto">
+            <img src="asset/img/p3.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="asset/img/p4.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="asset/img/p5.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="asset/img/p6.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <form id="form" class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" name="name" id="name" autocomplete="off" placeholder="Nombre completo" title="Tu nombre es obligatorio." required>
-                    <input type="text" name="number" id="number" autocomplete="off"  placeholder="Teléfono" title="Tu número de teléfono es obligatorio." required>
-                    <input type="text" name="email" id="email" autocomplete="off"  placeholder="Email" title="Tu email es obligatorio." required>
-                    <input type="text" name="subject" id="subject" autocomplete="off"  placeholder="Asunto" title="El asunto es obligatorio." required>
-                    
-                    
-                </div>
-                <!-- Formulario -->
-                <div class="col">
-                    <textarea type="text" name="message" id="message" cols="70" rows="4" title="El mensaje es obligatorio." autocomplete="off"  placeholder="Escribe tu mensaje..." required></textarea>
-                    <input type="submit" id="boton" value="Enviar mensaje" class="contact__sendBtn">
-                </div>
-            </form>
-        </div>
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <form id="form" class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="off"
+              placeholder="Nombre completo"
+              title="Tu nombre es obligatorio."
+              required
+            />
+            <input
+              type="text"
+              name="number"
+              id="number"
+              autocomplete="off"
+              placeholder="Teléfono"
+              title="Tu número de teléfono es obligatorio."
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              autocomplete="off"
+              placeholder="Email"
+              title="Tu email es obligatorio."
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              autocomplete="off"
+              placeholder="Asunto"
+              title="El asunto es obligatorio."
+              required
+            />
+          </div>
+          <!-- Formulario -->
+          <div class="col">
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              cols="70"
+              rows="4"
+              title="El mensaje es obligatorio."
+              autocomplete="off"
+              placeholder="Escribe tu mensaje..."
+              required
+            ></textarea>
+            <input
+              type="submit"
+              id="boton"
+              value="Enviar mensaje"
+              class="contact__sendBtn"
+            />
+          </div>
+        </form>
+      </div>
     </section>
 
     <!-- footer -->
     <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
     </footer>
 
     <script src="script.js"></script>
-     <!-- EMAIL JS -->
-     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <!-- EMAIL JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <!-- EMAIL JS PALABRA CLAVE -->
     <script type="text/javascript">
-         (function(){
-             emailjs.init({
-             publicKey: "-rY2R1UsUI0fHNHZp",
-         });
-        })();
+      (function () {
+        emailjs.init({
+          publicKey: "YRhWH6JNh0XneFpBa",
+        });
+      })();
     </script>
-
-</body>
+  </body>
 </html>
