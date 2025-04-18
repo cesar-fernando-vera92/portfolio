@@ -29,13 +29,12 @@ Este portfolio es una representación de mi trabajo y habilidades en el desarrol
 
 ```
 portfolio/
+├── asset/
+│   ├── imag/           # Imágenes del proyecto
+│   ├── pdf/            # curriculum en pdf
+├── estilo.css          # Estilos CSS
 ├── index.html          # Página principal
-├── assets/
-│   ├── css/            # Estilos CSS
-│   ├── js/             # Scripts JavaScript
-│   ├── images/         # Imágenes del proyecto
-│   └── fonts/          # Fuentes personalizadas
-├── LICENSE             # Licencia MIT
+├── script.js           # Scripts JavaScript
 └── README.md           # Este archivo
 ```
 
