@@ -267,6 +267,7 @@ html{
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    
 }
 .col-ul .col-li {
     border: 1px solid var(--blue);
